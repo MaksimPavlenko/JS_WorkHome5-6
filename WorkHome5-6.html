@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WorkHome5-6</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+
+</head>
+<body id="body" >
+	
+
+	
+	<script language="javascript">
+		
+		
+		
+	</script> 
+
+	<div>
+		<button class="button1" onClick="document.getElementById('body').style.background='dimgray'">DimGrey</button>
+		<button id="button2" onClick="document.getElementById('body').style.background='#548B54'" style="" >PaleGreen4</button>
+		<button id="button3" onClick="document.getElementById('body').style.background='#607B8B'" style="">LightSkyBlue4</button>
+	</div>
+
+	<section>
+		<select size="1" class="ap-select_special" onchange= "onchange_size(this)">
+			<option disabled>Выберите размер</option>
+			<option value="80">smal</option>
+			<option selected value="95">medium</option>
+			<option value="110">big</option>
+		</select>
+	</section>
+	
+	<div class="block" >
+		<form name=clockform>   	 
+			<input name=clock size=10 value="00:00:00:00" id="font" class="inp" onclick="findTIME()"><br>
+			<input name=starter type=button value="Старт / Стоп " 
+			onclick="findTIME()" style="font-size:13px; color: #000000; width: 200px">
+			<input name=clearer type=button value=" Обнулить " 
+			onclick="clearALL()" style="font-size:15px; color: #000000; width: 200px">	
+		</form>
+	</div>
+</body>
+</html>
